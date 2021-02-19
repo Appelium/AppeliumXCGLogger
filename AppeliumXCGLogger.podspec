@@ -11,8 +11,7 @@ Pod::Spec.new do |s|
 	s.platform				= :ios, '11.0'
 	s.swift_versions 		= ['5']
 	s.source       			= { :http => "https://github.com/Appelium/AppeliumXCGLogger/releases/download/#{s.version}/AppeliumXCGLogger.xcframework.zip" }
-
-	s.platform				= :ios, '10.0'
+	s.library      			= 'z'
 	s.xcconfig    			= { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/AppeliumXCGLogger/"' }
     s.requires_arc 			= true
     s.vendored_frameworks	= 'AppeliumXCGLogger.xcframework'
