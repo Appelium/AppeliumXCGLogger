@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|  
 	s.name					= 'AppeliumXCGLogger'
-	s.version				= '1.1.0'
+	s.version				= '1.2.0'
 	s.summary				= 'A custom XCGLogger destination for Appelium'
 	s.homepage				= 'https://www.appelium.com/'
 	s.cocoapods_version     = '>= 1.10.0'
@@ -8,7 +8,8 @@ Pod::Spec.new do |s|
 	s.author				= { 'Appelium' => 'support@appelium.com' }
 	s.license				= { :type => 'Commercial', :file => 'LICENSE.md' }
 
-	s.platform				= :ios, '11.0'
+    s.ios.deployment_target = '12.0'
+    s.tvos.deployment_target = '12.1'
 	s.swift_versions 		= ['5']
 	s.source       			= { :http => "https://github.com/Appelium/AppeliumXCGLogger/releases/download/#{s.version}/AppeliumXCGLogger.xcframework.zip" }
 	s.library      			= 'z'
