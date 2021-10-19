@@ -17,6 +17,6 @@ Pod::Spec.new do |s|
     s.requires_arc 			= true
     s.vendored_frameworks	= 'AppeliumXCGLogger.xcframework'
 
-	s.dependency "AppeliumFeedback" '>= 2.9.0'
+	s.dependency "AppeliumFeedback"
 	s.dependency 'XCGLogger', '>= 7.0.0'
 end
