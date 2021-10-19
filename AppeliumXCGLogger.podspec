@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|  
 	s.name					= 'AppeliumXCGLogger'
-	s.version				= '1.2.0'
+	s.version				= '1.2.1'
 	s.summary				= 'A custom XCGLogger destination for Appelium'
 	s.homepage				= 'https://www.appelium.com/'
 	s.cocoapods_version     = '>= 1.10.0'
@@ -17,6 +17,6 @@ Pod::Spec.new do |s|
     s.requires_arc 			= true
     s.vendored_frameworks	= 'AppeliumXCGLogger.xcframework'
 
-	s.dependency "AppeliumFeedback"
+	s.dependency "AppeliumFeedback" '>= 2.9.0'
 	s.dependency 'XCGLogger', '>= 7.0.0'
 end
