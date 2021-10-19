@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|  
 	s.name					= 'AppeliumXCGLogger'
-	s.version				= '1.2.1'
+	s.version				= '1.2.2'
 	s.summary				= 'A custom XCGLogger destination for Appelium'
 	s.homepage				= 'https://www.appelium.com/'
 	s.cocoapods_version     = '>= 1.10.0'
